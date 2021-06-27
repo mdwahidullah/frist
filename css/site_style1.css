@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+#container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: lightskyblue;
+}
+
+#header_section {
+    width: 98%;
+    margin: 1% 1% 0;
+    height: 100px;
+    /* background-color: lightpink; */
+    float: left;
+}
+
+#top_left_section {
+    width: 15%;
+    background-color: lightyellow;
+    padding: 2%;
+    height: 100%;
+    float: left;
+}
+
+
+/* style for top menu */
+
+#top_right_section {
+    float: right;
+}
+
+#menu_container {
+    margin: 3%;
+    width: 100%;
+    float: right;
+}
+
+ul#top_menu {
+    list-style: none;
+}
+
+ul#top_menu li {
+    float: left;
+}
+
+ul#top_menu li a {
+    display: block;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+ul#top_menu li a:hover {
+    background-color: orange;
+}
+
+#content_section {
+    width: 98%;
+    margin: 0 1%;
+    height: 700px;
+    /* background-color: lightgreen; */
+    float: left;
+}
+
+#footer_section {
+    width: 98%;
+    margin: 0 1% 1%;
+    height: 250px;
+    background-color: lightgray;
+    float: left;
+}
+
+.half_width {
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    width: 588px;
+    float: left;
+    height: 350px;
+}
+
+.one_third_width {
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    width: 392px;
+    float: left;
+    height: 350px;
+}
+
+.one_fourth_width {
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    width: 294px;
+    float: left;
+    height: 250px;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.homepage_intro_special_letter {
+    padding: 15px;
+    ;
+    float: left;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+#corpo_intro_img {
+    width: 100%;
+    padding-left: 15px;
+    margin-top: -8px;
+}
+
+.corpo_service_box {
+    width: 94%;
+    height: 322px;
+    padding: 15px;
+    background-color: orange;
+    margin: 3%;
+    border: 3px solid lightblue;
+}
+
+.corpo_service_box h4 {
+    text-align: center;
+}
+
+.corpo_service_box p {
+    text-align: justify;
+}
+
+.corpo_service_box img {
+    margin: 0 90px;
+}
+
+h4.footer_h4 {
+    padding: 15px;
+    /* border-bottom: 2px solid lightgray; */
+}
+
+.one_fourth_width ul {
+    list-style: none;
+}
+
+.one_fourth_width ul li {
+    margin: 10px 0;
+}
+
+.footer_about p {
+    padding: 5px;
+    text-align: justify;
+    margin-left: 11px;
+    text-transform: capitalize;
+}
